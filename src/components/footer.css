@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background-color: rgb(92, 87, 87);
+    padding: 10px 10px;
+    align-items: center;
+}
+.footer_left {
+    display: flex;
+    gap: 15px;
+}
+.footer_right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: bisque;
+    text-transform: uppercase;
+}

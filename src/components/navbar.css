@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background-color: rgb(92, 87, 87);
+    padding: 10px 10px;
+    align-items: center;
+}
+.navbar_right {
+    display: flex;
+    gap: 15px;
+}
+.navbar_item {
+    text-decoration: none;
+    color: bisque;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.navbar_item:hover {
+    color: yellow;
+    border-bottom: 1px solid yellow;
+    cursor: pointer;
+}
